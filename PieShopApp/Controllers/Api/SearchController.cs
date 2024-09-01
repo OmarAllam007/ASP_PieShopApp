@@ -36,7 +36,7 @@ namespace PieShopApp.Controllers.Api
         }
 
         [HttpPost]
-        public IActionResult Search([FromBody] string searchQuery)
+        public IActionResult SearchPies([FromBody] string searchQuery)
         {
             IEnumerable<Pie> pies = new List<Pie>();
 
